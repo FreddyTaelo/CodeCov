@@ -23,4 +23,11 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
         assertEquals("com.example.codecov", appContext.getPackageName());
     }
+
+    /*@Test
+    public void calculatorAddTwoPass(){
+        Calculator calculator = new Calculator();
+        int sum = calculator.addTwo(3, 4);
+        assertEquals(sum , 7);
+    }*/
 }
